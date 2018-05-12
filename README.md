@@ -34,3 +34,9 @@ variable= bucket, a named object that stores something
 .to_i = converts string to integer, all user input is automatically a string
 
 .to_s = converts to string
+
+Remember: You're never going to remember everything, but you will remember- there's SOMETHING that does that, and you know how to find it
+
+Conditional - a statement that is either true or false, used by if to determine what to do
+
+Control flow- controlling what runs and what doesn’t
