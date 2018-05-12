@@ -40,3 +40,16 @@ Remember: You're never going to remember everything, but you will remember- ther
 Conditional - a statement that is either true or false, used by if to determine what to do
 
 Control flow- controlling what runs and what doesn’t
+
+DRY = Don’t repeat yourself
+
+Wet code = repetitive code
+
+Loop = an instruction to repeat a line of code
+
+array = a collection of objects (an object that holds other objects)
+
+method + ! = mutator - a mutator permanently changes your data, the exclamation is a warning. users.capitalize! will permanently capitalize users’ names in an array. Mutators are dangerous
+Conditional - a statement that is either true or false, used by if to determine what to do
+
+Control flow- controlling what runs and what doesn’t
