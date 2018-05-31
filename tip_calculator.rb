@@ -1,6 +1,6 @@
 puts "What is the bill?"
 bill = gets.chomp.to_i
-puts "How much tip to give?(%)"
+puts "How much would you like to tip?(%)"
 tip_percent = gets.chomp.to_i
 
 if tip_percent <= 15
