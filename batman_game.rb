@@ -19,7 +19,7 @@ end
 
 puts "Awesome! Let's get your sidekick a weapon to defend themselves..."
 
-puts "Options: Batarang, fist or flashlight"
+puts "Options: Batarang, fists or flashlight"
 
 weapon = gets.chomp.downcase
 
@@ -27,11 +27,11 @@ case weapon
 when "batarang"
   puts "#{ally}: Awesome! A Batarang! Thanks Batman..."
 when "fist"
-  puts "#{ally}: I don't need a weapon! I'll use my fist like you..."
+  puts "#{ally}: I don't need a weapon! I'll use my fists like you..."
 when "flashlight"
   puts "#{ally}: Uh... thanks?? I'll keep the light on..."
 else
-  puts "Don't be selfish...help out your sidekick"
+  puts "Don't be selfish...help out your sidekick!"
   weapon = "batarang"
 end
 
@@ -51,12 +51,10 @@ end
 
 case enemy
 when "riddler"
-  puts "Riddler: puzzle me this!!"
+  puts "Riddler: Puzzle me this!!"
 when "joker"
   puts "Joker: ha Ha hA HA ha"
 when "penguin"
-  puts "Penguin: beware the top hat..."
-else
-  puts "This shouldn't run"
+  puts "Penguin: Now I take my revenge!!"
 end
   
